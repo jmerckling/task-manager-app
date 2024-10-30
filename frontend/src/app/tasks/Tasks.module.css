@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f414;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.taskListContainer {
+  width: 100%;
+  max-width: 600px;
+}
+
+.taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.updateButton,
+.deleteButton,
+.saveButton,
+.cancelButton {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.updateButton {
+  background-color: #2196f3;
+  color: white;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+}
+
+.saveButton {
+  background-color: blue;
+  color: white;
+}
+
+.cancelButton {
+  background-color: #999;
+  color: white;
+}
